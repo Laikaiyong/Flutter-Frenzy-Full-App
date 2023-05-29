@@ -1,6 +1,7 @@
 import 'package:app/pages/auth/forgot_password_page.dart';
 import 'package:app/pages/auth/login_page.dart';
 import 'package:app/pages/auth/register_page.dart';
+import 'package:app/pages/home_page.dart';
 import 'package:app/pages/landing_page.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         "/login": (BuildContext context) => LoginPage(),
         "/register": (BuildContext context) => RegisterPage(),
         "/forgot-password": (BuildContext context) => ForgotPasswordPage(),
-        "/home": (BuildContext context) => LandingPage(),
+        "/home": (BuildContext context) => HomePage(),
       },
     );
   }
